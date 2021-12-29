@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="../assets/images/Mask.png">
+        <link rel="stylesheet" href="../assets/css/all.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../assets/css/owl.carousel.min.css"/>
+        <link rel="stylesheet" href="../assets/css/style.css">
+        <title>الـديـب للـمـحـامـاه | المقالات</title>
+    </head>
+
+    <body>
+        <!------------------------ Start header Section --------------------------->
+        <header class="header-sub" style="height: 50vh;">
+            <section class="header__container">
+                <div class="container">
+                    <div class="header__details">
+                        <div class="nav__bars"><i class="fa fa-bars"></i></div>
+                        <div class="header__logo">
+                            <a href="../index.html"><img src="../assets/images/logo-light.png" alt="logo-light"></a>
+                        </div>
+                        <div class="header__contact">
+                            <ul>
+                                <li><a href="#"> companymail@gmail.com <i class="fa fa-envelope"></i></a></li>
+                                <li><a href="#"> 123456789978 <i class="fas fa-phone-alt"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <nav class="navbar">
+                        <ul>
+                            <li><a href="../index.html" >الرئيسيه</a></li>
+                            <li><a href="about.html">من نحن</a></li>
+                            <li><a href="services.html">الخدمات</a></li>
+                            <li><a href="articles.html" class="active">مقالات</a></li>
+                            <li><a href="teamwork.html">فريق العمل</a></li>
+                            <li><a href="contact-us.html">تواصل معنا</a></li>
+                        </ul>
+                        <button class="request__btn" id="open__request">
+                            <a href="#">أطلب استشاره</a>
+                        </button>
+                    </nav>
+                    <div class="header__content">
+                        <h2>المقالات</h2>
+                        <div>
+                            <h5> الرئيسيه - </h5>  <h5 class="page-active"> المقالات </h5>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="side__bar">
+                <span class="close__sidebar"><i class="fa fa-times"></i></span>
+                <ul class="side__bar-links">
+                    <li><a href="../index.html" class="navLink">الرئيسيه</a></li>
+                    <li><a href="about.html" class="navLink">من نحن</a></li>
+                    <li><a href="services.html" class="navLink">الخدمات</a></li>
+                    <li><a href="articles.html" class="navLink">مقالات</a></li>
+                    <li><a href="teamwork.html" class="navLink">فريق العمل</a></li>
+                    <li><a href="contact-us.html" class="navLink">تواصل معنا</a></li>
+                </ul>
+            </div>
+        </header>
+        <!-- Consultation request Model -->
+        <div class="Consultation__request">
+            <div class="request__bg">
+                <span class="close__request"><i class="fa fa-times"></i></span>
+                <div class="request__content container">
+                    <div class="request__header">
+                        <h2>لطلب استشارة قانونية مدفوعة يرجى التواصل عبر النموذج ادناه</h2>
+                        <p>  طلب استشارة قانونية - سيقوم المستشارون بالرد في اسرع وقت ممكن !
+                            مع العلم ان رسوم الاستشارة 299 ريال سعودى ما يعادل 79 $</p>
+                    </div>
+                    <div class="request__form container">
+                        <div class="row">
+                            <div class="form-group col-md-4 col-xs-12">
+                                <h4> الاسم ثلاثى *</h4>
+                                <input type="text" class="form-control" placeholder="الاسم ثلاثى *">
+                            </div>
+                            <div class="form-group col-md-4 col-xs-12">
+                                <h4>رقم الواتس اب مبدوء بالرقم الدولى *</h4>
+                                <input type="text" class="form-control" placeholder="رقم الواتس اب مبدوء بالرقم الدولى">
+                            </div>
+                            <div class="form-group col-md-4 col-xs-12">
+                                <h4>البريد الالكترونى *</h4>
+                                <input type="text" class="form-control" placeholder="البريد الالكترونى *">
+                            </div>
+    
+                            <div class="form-group col-md-12 col-xs-12 container">
+                                <h3>اختيار تخصص المستشار القانونى</h3>
+                                <div class="volunteer-checks row">
+                                    <div class="check__group col-md-3">
+                                        <input type="checkbox" id="intern" name="" value="">
+                                        <label for="intern">مستشار تجارى</label>
+                                    </div>
+                                    <div class="check__group col-md-3">
+                                        <input type="checkbox" id="hr" name="" value="">
+                                        <label for="hr">مستشار شركات</label>
+                                    </div>
+                                    <div class="check__group col-md-3">
+                                        <input type="checkbox" id="activity" name="" value="">
+                                        <label for="activity">مستشار أحوال شخصية</label>
+                                    </div>
+                                    <div class="check__group col-md-3">
+                                        <input type="checkbox" id="healthy" name="" value="">
+                                        <label for="healthy">مستشار عمالى</label>
+                                    </div>
+                                    <div class="check__group col-md-4">
+                                        <input type="checkbox" id="exp" name="" value="">
+                                        <label for="exp">كتابة / مراجعة عقد او لائحة اعتراضية</label>
+                                    </div>
+                                    <div class="check__group col-md-4">
+                                        <input type="checkbox" id="exp" name="" value="">
+                                        <label for="exp">محامى ترافع لدى المحكمه</label>
+                                    </div>
+                                    <div class="check__group col-md-4">
+                                        <input type="checkbox" id="exp" name="" value="">
+                                        <label for="exp">مستشار في جميع التخصصات</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group col-md-12 col-xs-12 container">
+                                <h3>موضوع الاستشارة</h3>
+                                <div class="volunteer-checks row">
+                                    <textarea class="col-md-12 col-xs-12" name="" id="" cols="30" rows="4" placeholder="إكتب موضوع الإستشاره"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------------------ End header Section ----------------------------->
+        <main>
+            <!--=======   Start Articles section  =======-->
+            <div class="articles__container articles__container-sub">
+                <div class="container">
+                    <div class="row">
+                        <div class="blog col-md-6 col-xs-12">
+                            <div class="blog__content">
+                                <div class="blog__details article__details">
+                                    <h2 class="blog__title">عنوان المقال</h2>
+                                    <p class="blog__text"> هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا</p>
+                                    <a href="../sub-pages/article-details.html" class="blog__read__more">اقرء المزيد</a>
+                                </div>
+                            </div>
+                            <div class="blog__img">
+                                <img src="../assets/images/hammer.png" alt="logo-light">
+                            </div>
+                        </div>
+                        <div class="blog col-md-6 col-xs-12">
+                            <div class="blog__content">
+                                <div class="blog__details article__details">
+                                    <h2 class="blog__title">عنوان المقال</h2>
+                                    <p class="blog__text"> هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا</p>
+                                    <a href="../sub-pages/article-details.html" class="blog__read__more">اقرء المزيد</a>
+                                </div>
+                            </div>
+                            <div class="blog__img">
+                                <img src="../assets/images/bram-naus-unsplash.png" alt="logo-light">
+                            </div>
+                        </div>
+                        <div class="blog col-md-6 col-xs-12">
+                            <div class="blog__content">
+                                <div class="blog__details article__details">
+                                    <h2 class="blog__title">عنوان المقال</h2>
+                                    <p class="blog__text"> هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا</p>
+                                    <a href="../sub-pages/article-details.html" class="blog__read__more">اقرء المزيد</a>
+                                </div>
+                            </div>
+                            <div class="blog__img">
+                                <img src="../assets/images/bram-naus-unsplash.png" alt="logo-light">
+                            </div>
+                        </div>
+                        <div class="blog col-md-6 col-xs-12">
+                            <div class="blog__content">
+                                <div class="blog__details article__details">
+                                    <h2 class="blog__title">عنوان المقال</h2>
+                                    <p class="blog__text"> هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا</p>
+                                    <a href="../sub-pages/article-details.html" class="blog__read__more">اقرء المزيد</a>
+                                </div>
+                            </div>
+                            <div class="blog__img">
+                                <img src="../assets/images/hammer.png" alt="logo-light">
+                            </div>
+                        </div>
+                        <div class="blog col-md-6 col-xs-12">
+                            <div class="blog__content">
+                                <div class="blog__details article__details">
+                                    <h2 class="blog__title">عنوان المقال</h2>
+                                    <p class="blog__text"> هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا</p>
+                                    <a href="../sub-pages/article-details.html" class="blog__read__more">اقرء المزيد</a>
+                                </div>
+                            </div>
+                            <div class="blog__img">
+                                <img src="../assets/images/hammer.png" alt="logo-light">
+                            </div>
+                        </div>
+                        <div class="blog col-md-6 col-xs-12">
+                            <div class="blog__content">
+                                <div class="blog__details article__details">
+                                    <h2 class="blog__title">عنوان المقال</h2>
+                                    <p class="blog__text"> هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا</p>
+                                    <a href="../sub-pages/article-details.html" class="blog__read__more">اقرء المزيد</a>
+                                </div>
+                            </div>
+                            <div class="blog__img">
+                                <img src="../assets/images/bram-naus-unsplash.png" alt="logo-light">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--=======   End Articles section  =======-->
+        </main>
+        <!------------------------ Start footer Section --------------------------->
+        <footer>
+            <div class="footer__container">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer__details col-md-4 col-xs-12">
+                            <h3>من نحن</h3>
+                            <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+                                إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع.</p>
+                        </div>
+                        <div class="footer__details col-md-2 col-xs-12">
+                            <h3>روابط الموقع</h3>
+                            <ul class="footer__links">
+                                <li><a class="link__active" href="#">الرئيسيه</a></li>
+                                <li><a href="about.html">من نحن</a></li>
+                                <li><a href="services.html">خدماتنا</a></li>
+                                <li><a href="articles.html">المقالات</a></li>
+                                <li><a href="contact-us.html">تواصل معنا</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__details col-md-2 col-xs-12">
+                            <h3>تابعنا</h3>
+                            <ul class="footer__social">
+                                <li><a href="#"> <i class="fab fa-facebook"></i> فيسبوك</a></li>
+                                <li><a href="#"> <i class="fab fa-twitter"></i> تويتر</a></li>
+                                <li><a href="#"> <i class="fab fa-instagram"></i> انستجرام</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__details col-md-4 col-xs-12">
+                            <h3>موقعنا</h3>
+                            <ul class="footer__location">
+                                <li><a class="locate" href="#"> <i class="fas fa-map-marker-alt"></i>
+                                    المملكة العربية السعودية - جدة
+                                    طريق االمدينة الطالع تقاطع شارع حراء - مركز درة حراء
+                                </a></li>
+                                <li><a href="#"> <i class="fas fa-phone-alt"></i> +966555707954</a></li>
+                                <li><a href="#"> <i class="far fa-envelope"></i> companymail@gmail.com</a></li>
+                            </ul>
+                            <div class="email__list">
+                                <h3>القائمه البريديه</h3>
+                                <form>
+                                    <input type="text" name="" placeholder="اكتب بريدك الالكترونى ليصلك كل جديد">
+                                    <button>إشترك</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <div class="container">
+                        <div class="copyright__content">
+                            <p>جميع الحقوق محفوظه الديب للـمـحـامـاه</p>
+                            <img src="../assets/images/SmartVision.png" alt="SmartVision">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!------------------------ End footer Section ----------------------------->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="assets/js/jquery-3.6.0.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
